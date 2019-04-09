@@ -89,5 +89,19 @@ export default ({locale, iconStyle: {normal, active}}) => (`
             <div id="tie-text-range"></div>
             <input id="tie-text-range-value" class="tui-image-editor-range-value" value="0" />
         </li>
+                <li class="tui-image-editor-partition">
+            <div></div>
+        </li>
+        <li>
+            <div id="tie-text-color" title="${locale.localize('Color')}"></div>
+        </li>
+        <li class="tui-image-editor-partition only-left-right">
+            <div></div>
+        </li>
+        <li class="tui-image-editor-newline tui-image-editor-range-wrap">
+            <label class="range">${locale.localize('Text size2')}</label>
+            <div id="tie-text-range"></div>
+            <input id="tie-text-range-value" class="tui-image-editor-range-value" value="0" />
+        </li>
     </ul>
 `);
